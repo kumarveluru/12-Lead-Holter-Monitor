@@ -24,6 +24,12 @@ The version used for this project is **KiCad 9.0.7**.
 
 All the files are attached in the repository folder.
 
+A custom library was created to import certain symbols into the schematic along with their corresponding footprints and 3D models.
+
+The name of the library is:
+- **1_kumar_symbol_library.kicad_sym** : for symbols
+- **My library.pretty** : for footprints
+
 ---
 
 ## System Architecture
