@@ -1,5 +1,4 @@
-# 12-Lead-Holter-Monitor
-A KiCad-designed 12-lead Holter monitor implemented using a 10-electrode configuration, achieving equivalent diagnostic output. This portable cardiac monitoring system captures continuous ECG data for extended periods. The design includes schematic and PCB layout files, optimized for wearability and clinical-grade signal acquisition. 
+
 # 12-Lead Holter Monitor (10-Electrode Implementation) | KiCad PCB Design
 
 A KiCad-designed **12-lead Holter monitor** implemented using a **10-electrode configuration**, achieving full clinical-grade diagnostic output. This portable, wearable cardiac monitoring system continuously captures 12-lead ECG data using the ADS1298 analog front-end and an ESP32-S3 microcontroller, with onboard SD card logging, RTC timestamping, and OLED display.
@@ -164,7 +163,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 V Kumar - V.Kumar@iiitb.ac.in  [GitHub Profile](https://github.com/kumarveluru)
 
-Project Link: [https://github.com/yourusername/12-lead-holter-monitor](https://github.com/yourusername/12-lead-holter-monitor)
+Project Link: [https://github.com/kumarveluru/12-Lead-Holter-Monitor](https://github.com/kumarveluru/12-Lead-Holter-Monitor)
 
 ---
 
