@@ -1,0 +1,229 @@
+(footprint "TE_FSM4JSMA"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -1.144485 -4.577985 0)
+		(layer "F.SilkS")
+		(uuid "0e62896f-4c9e-4fa9-a94e-59c0ef12d0c0")
+		(effects
+			(font
+				(size 1.401835 1.401835)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TE_FSM4JSMA"
+		(at 4.06504 4.44616 0)
+		(layer "F.Fab")
+		(uuid "1561a246-439f-4d16-aa58-40392e46cfc2")
+		(effects
+			(font
+				(size 1.400362 1.400362)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8c540229-c1e9-4f1f-b5f8-24b6e28d9756")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d3d033b5-f733-4127-942f-a2c331ed7efc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3 -3)
+		(end 3 -3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ee9c4921-f4fb-4351-be4b-53f6ceef6292")
+	)
+	(fp_line
+		(start -3 3)
+		(end -3 -3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "12f877b6-1d48-4ce0-9d57-9fc06652ba63")
+	)
+	(fp_line
+		(start 3 -3)
+		(end 3 3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "db042509-8eb3-4c18-81c1-fb36a40b5d1c")
+	)
+	(fp_line
+		(start 3 3)
+		(end -3 3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "43e38039-2fcf-4e47-b804-77080cc25bda")
+	)
+	(fp_circle
+		(center -6.151 -2.249)
+		(end -6.051 -2.249)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "e99d97e1-1e47-44dd-bd02-2e7ff1c09cc3")
+	)
+	(fp_line
+		(start -5.9 -3.25)
+		(end -5.9 3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0e9705d6-b69a-4598-b8da-a198424dc5f2")
+	)
+	(fp_line
+		(start -5.9 3.25)
+		(end 5.9 3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "349a79fe-c098-4eb7-be88-f81f8ab5bf88")
+	)
+	(fp_line
+		(start 5.9 -3.25)
+		(end -5.9 -3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a512eb63-b3d4-4fe7-bbc9-8fed9a88b034")
+	)
+	(fp_line
+		(start 5.9 3.25)
+		(end 5.9 -3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1c74ed00-f641-4134-824f-f95a70ebf63d")
+	)
+	(fp_line
+		(start -3 -3)
+		(end -3 3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e78d1824-733f-4ca4-ba20-ac023cbd881b")
+	)
+	(fp_line
+		(start -3 3)
+		(end 3 3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "035f0365-0835-476d-9123-35806723f0d5")
+	)
+	(fp_line
+		(start 3 -3)
+		(end -3 -3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "01bf5a16-9e26-4187-a010-05805b6e445c")
+	)
+	(fp_line
+		(start 3 3)
+		(end 3 -3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ad812eda-b13a-499e-9496-1592ea991200")
+	)
+	(pad "1" smd roundrect
+		(at -4.55 -2.24)
+		(size 2.1 1.38)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.075)
+		(solder_mask_margin 0.102)
+		(uuid "eaf6ae5b-692c-4ccc-9d0c-257dce8a229b")
+	)
+	(pad "2" smd roundrect
+		(at 4.55 -2.24)
+		(size 2.1 1.38)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.075)
+		(solder_mask_margin 0.102)
+		(uuid "b23772f0-c5ee-4b9e-a20b-0264a5eac376")
+	)
+	(pad "3" smd roundrect
+		(at -4.55 2.24)
+		(size 2.1 1.38)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.075)
+		(solder_mask_margin 0.102)
+		(uuid "76ae80aa-53fb-4552-854a-7856000b964f")
+	)
+	(pad "4" smd roundrect
+		(at 4.55 2.24)
+		(size 2.1 1.38)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.075)
+		(solder_mask_margin 0.102)
+		(uuid "73966940-fdc9-443b-a123-2e0ee0dcef07")
+	)
+	(embedded_fonts no)
+
+	(model "${KIPRJMOD}/Snapeda.3dshapes/FSM4JSMA.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
